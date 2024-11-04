@@ -1,0 +1,192 @@
+[17:40:28] [Server thread/INFO]: Starting minecraft server version 1.12
+[17:40:28] [Server thread/INFO]: Loading properties
+[17:40:28] [Server thread/INFO]: Default game type: CREATIVE
+[17:40:28] [Server thread/INFO]: Generating keypair
+[17:40:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:40:28] [Server thread/INFO]: Using default channel type
+[17:40:29] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[17:40:29] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[17:40:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:40:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:40:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:40:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:40:29] [Server thread/INFO]: Preparing level "world"
+[17:40:29] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8229475612454173894)
+[17:40:30] [Server thread/INFO]: Preparing spawn area: 23%
+[17:40:31] [Server thread/INFO]: Preparing spawn area: 48%
+[17:40:32] [Server thread/INFO]: Preparing spawn area: 69%
+[17:40:33] [Server thread/INFO]: Preparing spawn area: 88%
+[17:40:34] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8229475612454173894)
+[17:40:35] [Server thread/INFO]: Preparing spawn area: 36%
+[17:40:36] [Server thread/INFO]: Preparing spawn area: 68%
+[17:40:37] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8229475612454173894)
+[17:40:38] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[17:40:38] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[17:40:38] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[17:40:38] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[17:40:38] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[17:40:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:40:38] [Server thread/INFO]: Done (8,830s)! For help, type "help" or "?"
+[17:41:19] [Server thread/INFO]: Unknown command. Type "help" for help.
+
+[17:41:22] [Server thread/INFO]: --------- Help: Index ---------------------------
+
+[17:41:22] [Server thread/INFO]: Use /help [n] to get page n of help.
+
+[17:41:22] [Server thread/INFO]: Aliases: Lists command aliases
+
+[17:41:22] [Server thread/INFO]: Bukkit: All commands for Bukkit
+
+[17:41:22] [Server thread/INFO]: Minecraft: All commands for Minecraft
+
+[17:41:22] [Server thread/INFO]: /advancement: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /ban: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /ban-ip: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /banlist: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /blockdata: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /clear: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /clone: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /debug: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /deop: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /difficulty: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /effect: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /enchant: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /entitydata: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /execute: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /fill: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /function: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /gamemode: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /gamerule: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /give: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /help: Shows the help menu
+
+[17:41:22] [Server thread/INFO]: /kick: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /kill: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /list: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /locate: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /me: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /minecraft:tell: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /op: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /pardon: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /particle: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /playsound: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
+
+[17:41:22] [Server thread/INFO]: /recipe: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
+
+[17:41:22] [Server thread/INFO]: /replaceitem: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /save-all: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /save-off: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /save-on: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /say: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /scoreboard: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /seed: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /setblock: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /stats: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /stop: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /stopsound: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /summon: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /teleport: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /tell: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /tellraw: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /testfor: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /testforblock: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /testforblocks: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /time: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /timings: Records timings for all plugin events
+
+[17:41:22] [Server thread/INFO]: /title: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /toggledownfall: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /tp: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /trigger: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
+
+[17:41:22] [Server thread/INFO]: /weather: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /whitelist: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /worldborder: A Mojang provided command.
+
+[17:41:22] [Server thread/INFO]: /xp: A Mojang provided command.
+
+[17:41:27] [Server thread/INFO]: Unknown command. Type "help" for help.
+
+[17:42:00] [Server thread/INFO]: Unknown command. Type "help" for help.
+
+[17:42:03] [Server thread/INFO]: Usage: /gamemode <mode> [player]
+[17:42:07] [Server thread/INFO]: There are 0/20 players online:
+[17:42:07] [Server thread/INFO]: 
+[17:42:13] [Server thread/INFO]: Unknown command. Type "help" for help.
+
+[17:42:23] [Server thread/INFO]: Seed: -8229475612454173894
+[17:42:25] [Thread-1/INFO]: Stopping server
