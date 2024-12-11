@@ -1,27 +1,33 @@
-[17:58:29] [Server thread/INFO]: Starting minecraft server version 1.12
-[17:58:29] [Server thread/INFO]: Loading properties
-[17:58:29] [Server thread/INFO]: Default game type: CREATIVE
-[17:58:29] [Server thread/INFO]: Generating keypair
-[17:58:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:58:29] [Server thread/INFO]: Using default channel type
-[17:58:29] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[17:58:29] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[17:58:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:58:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:58:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:58:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:58:29] [Server thread/INFO]: Preparing level "world"
-[17:58:29] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8229475612454173894)
-[17:58:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8229475612454173894)
-[17:58:30] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8229475612454173894)
-[17:58:30] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[17:58:30] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[17:58:30] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[17:58:30] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[17:58:30] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[17:58:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:58:30] [Server thread/INFO]: Done (1,199s)! For help, type "help" or "?"
-[18:08:04] [Server thread/INFO]: theluismen[/127.0.0.1:54351] logged in with entity id 14 at ([world]-27.5, 73.0, 259.5)
-[18:08:48] [Server thread/INFO]: theluismen lost connection: Disconnected
-[18:08:48] [Server thread/INFO]: theluismen left the game
-[18:21:52] [Thread-1/INFO]: Stopping server
+[15:14:40] [Server thread/INFO]: Loading properties
+[15:14:40] [Server thread/INFO]: Default game type: CREATIVE
+[15:14:40] [Server thread/INFO]: Generating keypair
+[15:14:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:14:40] [Server thread/INFO]: Using default channel type
+[15:14:40] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[15:14:40] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[15:14:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:14:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:14:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:14:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:14:40] [Server thread/INFO]: Preparing level "world"
+[15:14:40] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8229475612454173894)
+[15:14:41] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8229475612454173894)
+[15:14:41] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8229475612454173894)
+[15:14:41] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[15:14:41] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[15:14:41] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[15:14:41] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[15:14:41] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[15:14:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:14:41] [Server thread/INFO]: Done (1,241s)! For help, type "help" or "?"
+[15:15:11] [Server thread/INFO]: theluismen[/127.0.0.1:52364] logged in with entity id 12 at ([world]-126.91980507870451, -216.16030531774405, 316.0920630402153)
+[15:15:54] [Thread-5/INFO]: [RaspberryJuice] Starting input thread
+[15:15:54] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52384.
+[15:15:54] [Thread-6/INFO]: [RaspberryJuice] Starting output thread!
+[15:15:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52384.
+[15:16:03] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52389.
+[15:16:03] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[15:16:03] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[15:16:03] [Server thread/INFO]: ola
+
+[15:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52389.
