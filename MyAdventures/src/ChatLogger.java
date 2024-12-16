@@ -15,11 +15,12 @@ public class ChatLogger extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerChat(AsyncPlayerChatEvent event) {
-        String message = event.getPlayer().getName() + ": " + event.getMessage();
-        try (FileWriter writer = new FileWriter("chatlog.txt", true)) {
-            writer.write(message + "\n");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // String message = event.getPlayer().getName() + ": " + event.getMessage();
+        // try (FileWriter writer = new FileWriter("chatlog.txt", true)) {
+        //     writer.write(message + "\n");
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // } /create TNTBot
+        System.cmd("python3 framework.py " + event.getMessage() );
     }
 }
