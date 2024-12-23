@@ -1,28 +1,164 @@
-[14:26:31] [Server thread/INFO]: Starting minecraft server version 1.12
-[14:26:31] [Server thread/INFO]: Loading properties
-[14:26:31] [Server thread/INFO]: Default game type: CREATIVE
-[14:26:31] [Server thread/INFO]: Generating keypair
-[14:26:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:26:32] [Server thread/INFO]: Using default channel type
-[14:26:32] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[14:26:32] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[14:26:32] [Server thread/INFO]: [ChatLogger] Loading ChatLogger v1.0
-[14:26:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:26:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:26:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:26:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:26:32] [Server thread/INFO]: Preparing level "world"
-[14:26:32] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8229475612454173894)
-[14:26:33] [Server thread/INFO]: Preparing spawn area: 82%
-[14:26:34] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8229475612454173894)
-[14:26:34] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8229475612454173894)
-[14:26:34] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[14:26:34] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[14:26:34] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[14:26:34] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[14:26:34] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[14:26:34] [Server thread/INFO]: [ChatLogger] Enabling ChatLogger v1.0
-[14:26:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:26:34] [Server thread/INFO]: Done (2,411s)! For help, type "help" or "?"
-[14:32:23] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+[17:00:23] [Server thread/INFO]: Starting minecraft server version 1.12
+[17:00:23] [Server thread/INFO]: Loading properties
+[17:00:23] [Server thread/INFO]: Default game type: CREATIVE
+[17:00:23] [Server thread/INFO]: Generating keypair
+[17:00:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:00:24] [Server thread/INFO]: Using default channel type
+[17:00:24] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[17:00:24] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[17:00:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:00:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:00:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:00:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:00:24] [Server thread/INFO]: Preparing level "world"
+[17:00:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3655036326624451972)
+[17:00:25] [Server thread/INFO]: Preparing spawn area: 17%
+[17:00:26] [Server thread/INFO]: Preparing spawn area: 39%
+[17:00:27] [Server thread/INFO]: Preparing spawn area: 60%
+[17:00:28] [Server thread/INFO]: Preparing spawn area: 82%
+[17:00:29] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3655036326624451972)
+[17:00:30] [Server thread/INFO]: Preparing spawn area: 33%
+[17:00:31] [Server thread/INFO]: Preparing spawn area: 62%
+[17:00:32] [Server thread/INFO]: Preparing spawn area: 98%
+[17:00:32] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3655036326624451972)
+[17:00:33] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[17:00:33] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[17:00:33] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[17:00:33] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[17:00:33] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[17:00:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:00:33] [Server thread/INFO]: Done (9,107s)! For help, type "help" or "?"
+[17:06:53] [Thread-6/INFO]: [RaspberryJuice] Starting output thread!
+[17:06:53] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52670.
+[17:06:53] [Thread-5/INFO]: [RaspberryJuice] Starting input thread
+[17:06:55] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52678.
+[17:06:55] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[17:06:55] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[17:06:55] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: Range [0, -1) out of bounds for length 19
+	at jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[?:?]
+	at jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[?:?]
+	at jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[?:?]
+	at jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[?:?]
+	at jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[?:?]
+	at java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[?:?]
+	at java.lang.String.substring(String.java:2834) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[17:06:55] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: Range [0, -1) out of bounds for length 19
+	at jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[?:?]
+	at jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[?:?]
+	at jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[?:?]
+	at jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[?:?]
+	at jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[?:?]
+	at java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[?:?]
+	at java.lang.String.substring(String.java:2834) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[17:06:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52670.
+[17:06:59] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: Range [0, -1) out of bounds for length 10
+	at jdk.internal.util.Preconditions$1.apply(Preconditions.java:55) ~[?:?]
+	at jdk.internal.util.Preconditions$1.apply(Preconditions.java:52) ~[?:?]
+	at jdk.internal.util.Preconditions$4.apply(Preconditions.java:213) ~[?:?]
+	at jdk.internal.util.Preconditions$4.apply(Preconditions.java:210) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112) ~[?:?]
+	at jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349) ~[?:?]
+	at java.lang.String.checkBoundsBeginEnd(String.java:4865) ~[?:?]
+	at java.lang.String.substring(String.java:2834) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[17:07:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52678.
+[17:07:23] [Server thread/INFO]: theluismen[/127.0.0.1:52685] logged in with entity id 3122 at ([world]217.5, 68.0, 261.5)
+[17:09:16] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52702.
+[17:09:16] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[17:09:16] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[17:09:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52702.
+[17:09:55] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52709.
+[17:09:55] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[17:09:55] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[17:09:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52709.
+[17:10:04] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52714.
+[17:10:04] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[17:10:04] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[17:10:04] [Server thread/INFO]: Marica
 
+[17:10:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52714.
+[17:16:51] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[17:16:51] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[17:16:51] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53012.
+[17:16:51] [Server thread/INFO]: Soplanucas
+
+[17:16:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53012.
+[17:16:58] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53017.
+[17:16:58] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[17:16:58] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[17:16:58] [Server thread/INFO]: Soplanucas
+
+[17:16:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53017.
+[17:16:58] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53018.
+[17:16:58] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[17:16:58] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[17:16:58] [Server thread/INFO]: Gei
+
+[17:16:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53018.
+[17:16:59] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53019.
+[17:16:59] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[17:16:59] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[17:16:59] [Server thread/INFO]: Soplanucas
+
+[17:16:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53019.
+[17:16:59] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53020.
+[17:16:59] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[17:16:59] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[17:16:59] [Server thread/INFO]: Soplanucas
+
+[17:16:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53020.
+[17:16:59] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53021.
+[17:16:59] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
+[17:16:59] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
+[17:16:59] [Server thread/INFO]: Gei
+
+[17:17:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53021.
+[17:17:00] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53022.
+[17:17:00] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[17:17:00] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[17:17:00] [Server thread/INFO]: Marica
+
+[17:17:00] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53022.
+[17:17:19] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53027.
+[17:17:19] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
+[17:17:19] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
+[17:17:19] [Server thread/INFO]: Marica
+
+[17:17:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53027.
