@@ -17,7 +17,7 @@ class InsultBot ( BaseAgent ):
         try:
             with open(file_path, 'r', encoding='utf-8') as file:
                 for line in file:
-                    self.insults.append(line.strip('\r\n'));
+                    self.insults.append( line.strip('\r\n') );
         # Por si no lee el archivo o pasa algo raro
         except Exception as e:
             self.insults = ['Tonto','Feo','Baboso']
