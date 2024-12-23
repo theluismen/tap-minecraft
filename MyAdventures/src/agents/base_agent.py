@@ -1,8 +1,9 @@
 from abc import ABC, abstractmethod
+import mcpi.minecraft as minecraft
 
 class BaseAgent:
     def __init__ ( self ):
-        pass
+        self.mc = minecraft.Minecraft.create()
 
     @abstractmethod
     def run ( self ):

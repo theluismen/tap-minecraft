@@ -1,27 +1,28 @@
-[21:52:58] [Server thread/INFO]: Loading properties
-[21:52:59] [Server thread/INFO]: Default game type: CREATIVE
-[21:52:59] [Server thread/INFO]: Generating keypair
-[21:52:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:52:59] [Server thread/INFO]: Using default channel type
-[21:52:59] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[21:52:59] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[21:52:59] [Server thread/INFO]: [ChatLogger] Loading ChatLogger v1.0
-[21:52:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:52:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:52:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:52:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:52:59] [Server thread/INFO]: Preparing level "world"
-[21:52:59] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8229475612454173894)
-[21:53:00] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8229475612454173894)
-[21:53:00] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8229475612454173894)
-[21:53:00] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[21:53:00] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[21:53:00] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[21:53:00] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[21:53:00] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[21:53:00] [Server thread/INFO]: [ChatLogger] Enabling ChatLogger v1.0
-[21:53:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:53:00] [Server thread/INFO]: Done (1,264s)! For help, type "help" or "?"
-[21:53:00] [Server thread/INFO]: Starting remote control listener
-[21:53:00] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
-[21:59:06] [Thread-1/INFO]: Stopping server
+[14:26:31] [Server thread/INFO]: Starting minecraft server version 1.12
+[14:26:31] [Server thread/INFO]: Loading properties
+[14:26:31] [Server thread/INFO]: Default game type: CREATIVE
+[14:26:31] [Server thread/INFO]: Generating keypair
+[14:26:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:26:32] [Server thread/INFO]: Using default channel type
+[14:26:32] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[14:26:32] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[14:26:32] [Server thread/INFO]: [ChatLogger] Loading ChatLogger v1.0
+[14:26:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:26:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:26:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:26:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:26:32] [Server thread/INFO]: Preparing level "world"
+[14:26:32] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8229475612454173894)
+[14:26:33] [Server thread/INFO]: Preparing spawn area: 82%
+[14:26:34] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8229475612454173894)
+[14:26:34] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8229475612454173894)
+[14:26:34] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[14:26:34] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[14:26:34] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[14:26:34] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[14:26:34] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[14:26:34] [Server thread/INFO]: [ChatLogger] Enabling ChatLogger v1.0
+[14:26:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:26:34] [Server thread/INFO]: Done (2,411s)! For help, type "help" or "?"
+[14:32:23] [Server thread/INFO]: Unknown command. Type "help" for help.[m
+

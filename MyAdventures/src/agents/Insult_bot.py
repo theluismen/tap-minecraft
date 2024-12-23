@@ -2,10 +2,10 @@ from .base_agent import BaseAgent
 
 class InsultBot ( BaseAgent ):
     def __init__ ( self ):
-        pass
+        super().__init__()
 
     def run ( self ):
-        print("Marica")
+        self.mc.postToChat("Marica");
 
     def print_message ():
         print("Te insulté")
