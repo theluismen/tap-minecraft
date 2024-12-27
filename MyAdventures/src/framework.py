@@ -20,7 +20,7 @@ def main ():
     else:
         bot = ExceptionBot() # Mensaje de error
 
-    if bot.connected() or type(bot).__name__ == "ExceptionBot":
+    if bot.connected():
         bot.run()
 
 if __name__ == "__main__":
