@@ -13,7 +13,7 @@ class InsultBot ( BaseAgent ):
 
     def cargar_insultos ( self ):
         base_dir  = os.path.dirname(__file__)
-        file_path = os.path.join(base_dir, '../data/insults.txt')
+        file_path = os.path.join(base_dir, '../../data/insults.txt')
         try:
             with open(file_path, 'r', encoding='utf-8') as file:
                 for line in file:

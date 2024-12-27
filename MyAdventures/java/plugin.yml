@@ -1,0 +1,12 @@
+name: ChatListener
+version: 1.0
+main: ChatListener
+api-version: 1.12
+commands:
+  bot:
+    description: Comando principal para interactuar con diferentes bots.
+    usage: /bot <nombre_de_bot>
+    subcommands:
+      insultbot:
+        description: Lanza un insulto aleatorio.
+        usage: /bot insultbot

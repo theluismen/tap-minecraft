@@ -5,13 +5,10 @@ class InfoBot( BaseAgent ):
         super().__init__()
 
     def run ( self ):
-        if not( self.connected() ):
-            return
-
-        self.mc.postToChat("## Info Bot ##")
-        self.mc.postToChat("- insultbot     for Insult Bot")
-        self.mc.postToChat("- tntbot        for TNT Bot")
-        self.mc.postToChat("- infobot       for Info Bot")
+        self.mc.postToChat("## Bot de Informacion - Nombre de Bots ##")
+        self.mc.postToChat("- insultbot     para Insult Bot")
+        self.mc.postToChat("- tntbot        para TNT Bot")
+        self.mc.postToChat("- infobot       para Info Bot")
 
     def print_message ( self ):
         pass
