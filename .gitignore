@@ -1,5 +1,5 @@
 # Ignorar Archivos del Servidor de Minecraft
-# Server/*/
+Server/*/
 
 # Ignorar carpeta de compilacion del Plugin del Server de Minecraft
 MyAdventures/java/ChatListener/
