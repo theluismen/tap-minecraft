@@ -1,4 +1,4 @@
-from server_support import start_server, stop_server
+from support_server import start_server, stop_server
 from src.agents.base_agent import BaseAgent
 
 # TEST 1: Con el servidor APAGADO, que NO se conecte
