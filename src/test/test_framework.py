@@ -5,19 +5,22 @@ import time
 from .support_server import start_server, stop_server
 
 # Funcion que ejecuta el framework
-def run_framework ( bot = "" ):
+def run_framework ( bot = "", opt = "" ):
     fm_path = os.path.join( os.path.dirname(__file__), '../framework.py')
     fm_cmd  = ["python3", fm_path]
 
     if bot != "":
         fm_cmd.append( bot )
 
+    if opt != "":
+        fm_cmd.append( opt )
+
     fm = subprocess.Popen(
         fm_cmd,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE, text=True
     )
-    
+
     return fm
 
 # TEST 1: Con el servidor APAGADO, y SIN BOT especificado
@@ -55,9 +58,23 @@ def test_framework_5():
     stdout, stderr = framework.communicate()
     assert stdout.strip() == "ERROR: Conection refused"
 
-# TEST 6: Con el servidor ENCENDIDO, y SIN BOT especificado
-#  no debe devolver nada
+# TEST 6: Con el servidor APAGADO, y con Bot CORRECTO...
+#  ... intentaria conectar al servidor y daria error de conexión
 def test_framework_6():
+    framework = run_framework("pptbot")
+    stdout, stderr = framework.communicate()
+    assert stdout.strip() == "ERROR: Conection refused"
+
+# TEST 7: Con el servidor APAGADO, y con Bot PPTBOT...
+#  ... con 2do argumento
+def test_framework_7():
+    framework = run_framework("pptbot", "tijera")
+    stdout, stderr = framework.communicate()
+    assert stdout.strip() == "ERROR: Conection refused"
+
+# TEST 8: Con el servidor ENCENDIDO, y SIN BOT especificado
+#  no debe devolver nada
+def test_framework_8():
     server, server_on = start_server()
     stdout, stderr = "",""
     if server_on:
@@ -66,10 +83,10 @@ def test_framework_6():
         stop_server( server )
         assert stdout.strip() == ""
 
-# TEST 7: Con el servidor ENCENDIDO, y con Bot INCORRECTO...
+# TEST 9: Con el servidor ENCENDIDO, y con Bot INCORRECTO...
 #  ... intentaria conectar al servidor, se conectaria, ...
 #  ... se ejecutaria y daria mensaje satisfactorio
-def test_framework_7():
+def test_framework_9():
     server, server_on = start_server()
     stdout, stderr = "",""
     if server_on:
@@ -78,10 +95,10 @@ def test_framework_7():
         stop_server( server )
         assert stdout.strip() == "ExceptionBot: Done"
 
-# TEST 8: Con el servidor ENCENDIDO, y con Bot CORRECTO...
+# TEST 10: Con el servidor ENCENDIDO, y con Bot CORRECTO...
 #  ... intentaria conectar al servidor, se conectaria, ...
 #  ... se ejecutaria y daria mensaje satisfactorio
-def test_framework_8():
+def test_framework_10():
     server, server_on = start_server()
     stdout, stderr = "",""
     if server_on:
@@ -90,10 +107,10 @@ def test_framework_8():
         stop_server( server )
     assert stdout.strip() == "InsultBot: Done"
 
-# TEST 9: Con el servidor ENCENDIDO, y con Bot CORRECTO...
+# TEST 11: Con el servidor ENCENDIDO, y con Bot CORRECTO...
 #  ... intentaria conectar al servidor, se conectaria, ...
 #  ... se ejecutaria y daria mensaje satisfactorio
-def test_framework_9():
+def test_framework_11():
     server, server_on = start_server()
     stdout, stderr = "",""
     if server_on:
@@ -102,10 +119,10 @@ def test_framework_9():
         stop_server( server )
     assert stdout.strip() == "TNTBot: Done"
 
-# TEST 10: Con el servidor ENCENDIDO, y con Bot CORRECTO...
+# TEST 12: Con el servidor ENCENDIDO, y con Bot CORRECTO...
 #  ... intentaria conectar al servidor, se conectaria, ...
 #  ... se ejecutaria y daria mensaje satisfactorio
-def test_framework_10():
+def test_framework_12():
     server, server_on = start_server()
     stdout, stderr = "",""
     if server_on:
@@ -113,3 +130,27 @@ def test_framework_10():
         stdout, stderr = framework.communicate()
         stop_server( server )
     assert stdout.strip() == "InfoBot: Done"
+
+# TEST 13: Con el servidor ENCENDIDO, y con Bot CORRECTO...
+#  ... intentaria conectar al servidor, se conectaria, ...
+#  ... se ejecutaria y daria mensaje satisfactorio
+def test_framework_13():
+    server, server_on = start_server()
+    stdout, stderr = "",""
+    if server_on:
+        framework = run_framework("pptbot")
+        stdout, stderr = framework.communicate()
+        stop_server( server )
+    assert stdout.strip() == "PPTBot: Done"
+
+# TEST 14: Con el servidor ENCENDIDO, y con Bot CORRECTO...
+#  ... intentaria conectar al servidor, se conectaria, ...
+#  ... se ejecutaria y daria mensaje satisfactorio
+def test_framework_14():
+    server, server_on = start_server()
+    stdout, stderr = "",""
+    if server_on:
+        framework = run_framework("pptbot", "tijera")
+        stdout, stderr = framework.communicate()
+        stop_server( server )
+    assert stdout.strip() == "PPTBot: Done"

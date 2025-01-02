@@ -1,38 +1,38 @@
-[23:09:24] [Server thread/INFO]: Starting minecraft server version 1.12
-[23:09:24] [Server thread/INFO]: Loading properties
-[23:09:24] [Server thread/INFO]: Default game type: CREATIVE
-[23:09:24] [Server thread/INFO]: Generating keypair
-[23:09:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:09:24] [Server thread/INFO]: Using default channel type
-[23:09:24] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[23:09:24] [Server thread/INFO]: [ChatListener] Loading ChatListener v1.1
-[23:09:24] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[23:09:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:09:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:09:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:09:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:09:24] [Server thread/INFO]: Preparing level "world"
-[23:09:25] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3655036326624451972)
-[23:09:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3655036326624451972)
-[23:09:26] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3655036326624451972)
-[23:09:26] [Server thread/INFO]: [ChatListener] Enabling ChatListener v1.1
-[23:09:26] [Server thread/INFO]: [ChatListener] CHAT_LISTENER habilitado
-[23:09:26] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[23:09:26] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[23:09:26] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[23:09:26] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[23:09:26] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[23:09:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:09:26] [Server thread/INFO]: Done (1,382s)! For help, type "help" or "?"
-[23:09:27] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61929.
-[23:09:27] [Thread-5/INFO]: [RaspberryJuice] Starting input thread
-[23:09:27] [Thread-6/INFO]: [RaspberryJuice] Starting output thread!
-[23:09:27] [Server thread/INFO]: ## Bot de Informacion - Nombre de Bots ##
+[23:41:07] [Server thread/INFO]: Starting minecraft server version 1.12
+[23:41:07] [Server thread/INFO]: Loading properties
+[23:41:07] [Server thread/INFO]: Default game type: CREATIVE
+[23:41:07] [Server thread/INFO]: Generating keypair
+[23:41:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:41:07] [Server thread/INFO]: Using default channel type
+[23:41:07] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[23:41:08] [Server thread/INFO]: [ChatListener] Loading ChatListener v1.1
+[23:41:08] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[23:41:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:41:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:41:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:41:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:41:08] [Server thread/INFO]: Preparing level "world"
+[23:41:08] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3655036326624451972)
+[23:41:09] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3655036326624451972)
+[23:41:09] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3655036326624451972)
+[23:41:09] [Server thread/INFO]: [ChatListener] Enabling ChatListener v1.1
+[23:41:09] [Server thread/INFO]: [ChatListener] CHAT_LISTENER habilitado
+[23:41:09] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[23:41:09] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[23:41:09] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[23:41:09] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[23:41:09] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[23:41:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:41:09] [Server thread/INFO]: Done (1,388s)! For help, type "help" or "?"
+[23:41:10] [Thread-3/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62771.
+[23:41:10] [Thread-5/INFO]: [RaspberryJuice] Starting input thread
+[23:41:10] [Thread-6/INFO]: [RaspberryJuice] Starting output thread!
+[23:41:10] [Server thread/INFO]: Tu elegiste:  tijera
 
-[23:09:27] [Server thread/INFO]: - insultbot     para Insult Bot
+[23:41:10] [Server thread/INFO]: El bot eligio: tijera
 
-[23:09:27] [Server thread/INFO]: - tntbot        para TNT Bot
+[23:41:10] [Server thread/INFO]: �Es un empate!
 
-[23:09:27] [Server thread/INFO]: - infobot       para Info Bot
+[23:41:10] [Server thread/INFO]: �Gracias por jugar! Hasta la proxima.
 
-[23:09:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61929.
+[23:41:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62771.

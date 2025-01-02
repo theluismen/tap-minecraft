@@ -18,4 +18,4 @@ source =
 # Excluir una carpeta específica (por ejemplo, 'tests') de la cobertura
 omit =
     */test/*
-    src/MyAdventures/*
+    */MyAdventures/*

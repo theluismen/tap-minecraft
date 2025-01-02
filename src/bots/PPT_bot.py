@@ -10,7 +10,7 @@ class PPTBot ( Bot ):
         self.human_choice = choice
 
     def run( self ):
-        if self.human_choice in ["piedra", "papel", "tijera"]:
+        if self.human_choice.lower() in ["piedra", "papel", "tijera"]:
             self.bot_choice = self.get_bot_choice()
             self.print_choices()
             result = self.determine_winner()

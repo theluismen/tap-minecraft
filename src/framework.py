@@ -20,6 +20,7 @@ def main ():
     elif bot_type.lower() == 'infobot':
         bot = InfoBot()
     elif bot_type.lower() == 'pptbot':
+        choice = ""
         if len(sys.argv) == 3:
             choice   = sys.argv[2]
         bot = PPTBot(choice)
