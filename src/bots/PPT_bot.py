@@ -1,6 +1,6 @@
 import random
 
-from .Bot import Bot
+from bots.Bot import Bot
 
 class PPTBot ( Bot ):
     def __init__( self, choice = None ):

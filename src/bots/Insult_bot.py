@@ -1,7 +1,7 @@
 import os
 import random
 
-from .Bot import Bot
+from bots.Bot import Bot
 
 # Lambda Function to create a random number
 random_insult = lambda n, m: random.randint(n,m)

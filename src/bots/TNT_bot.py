@@ -2,7 +2,7 @@ import time
 
 from    MyAdventures.mcpi.connection import RequestError
 import  MyAdventures.mcpi.block as Block
-from    .Bot import Bot
+from    bots.Bot import Bot
 
 class TNTBot ( Bot ):
     def __init__ ( self ):
