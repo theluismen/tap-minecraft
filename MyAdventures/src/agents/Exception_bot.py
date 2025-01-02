@@ -10,5 +10,5 @@ class ExceptionBot( BaseAgent ):
         self.mc.postToChat("/bot infobot:")
         self.mc.postToChat("para ver los bots disponibles")
 
-    def print_message ():
-        pass
+    def test_msg ( self ):
+        return "ExceptionBot: Done"

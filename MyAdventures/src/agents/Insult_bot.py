@@ -25,5 +25,5 @@ class InsultBot ( BaseAgent ):
     def run ( self ):
         self.mc.postToChat( "Eres un " + self.insults[ random_insult(0, len(self.insults)-1 ) ] )
 
-    def print_message ( self ):
-        print("Te he insultado jaja")
+    def test_msg ( self ):
+        return "InsultBot: Done"

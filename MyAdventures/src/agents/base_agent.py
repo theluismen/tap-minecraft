@@ -16,5 +16,5 @@ class BaseAgent:
         pass
 
     @abstractmethod
-    def print_message ( self ):
+    def test_msg ( self ):
         pass

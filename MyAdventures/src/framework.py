@@ -18,10 +18,11 @@ def main ():
     elif agent_type.lower() == 'infobot':
         bot = InfoBot()
     else:
-        bot = ExceptionBot() # Mensaje de error
+        bot = ExceptionBot() # Mensaje de error AL SERVIDOR
 
     if bot.connected():
         bot.run()
+        print(bot.test_msg())
 
 if __name__ == "__main__":
     main()

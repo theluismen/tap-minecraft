@@ -1,4 +1,5 @@
 import time
+from mcpi.connection import RequestError
 import mcpi.block as Block
 from .base_agent import BaseAgent
 
@@ -14,17 +15,21 @@ class TNTBot ( BaseAgent ):
         ]
 
     def tnt( self ):
-        pos     = self.mc.player.getTilePos()
-        x, y, z = pos.x, pos.y, pos.z
+        try:
+            pos     = self.mc.player.getTilePos()
+            x, y, z = pos.x, pos.y, pos.z
 
-        for coord in self.coords:
-            self.mc.setBlock(x+coord[0], y+7, z+coord[1], Block.TNT.id)
-            self.mc.setBlock(x+coord[0], y+8, z+coord[1], Block.FIRE.id)
+            for coord in self.coords:
+                self.mc.setBlock(x+coord[0], y+7, z+coord[1], Block.TNT.id)
+                self.mc.setBlock(x+coord[0], y+8, z+coord[1], Block.FIRE.id)
+
+        except RequestError:
+            pass
 
     def run ( self ):
         self.mc.postToChat("Cargando tnt... Corre !")
         time.sleep(1)
         self.tnt()
 
-    def print_message ( self ):
-        print("ya esploté")
+    def test_msg ( self ):
+        return "TNTBot: Done"

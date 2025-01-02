@@ -10,5 +10,5 @@ class InfoBot( BaseAgent ):
         self.mc.postToChat("- tntbot        para TNT Bot")
         self.mc.postToChat("- infobot       para Info Bot")
 
-    def print_message ( self ):
-        pass
+    def test_msg ( self ):
+        return "InfoBot: Done"
