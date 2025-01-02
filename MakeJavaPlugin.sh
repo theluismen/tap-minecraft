@@ -1,6 +1,6 @@
 #!/bin/bash
 
-JDIR="./MyAdventures/java/"
+JDIR="./java/"
 PLUGINDIR="./Server/plugins"
 
 # Compilar el Archivo del Plugin
