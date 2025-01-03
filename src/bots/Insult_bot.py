@@ -7,14 +7,15 @@ from bots.Bot import Bot
 random_insult = lambda n, m: random.randint(n,m)
 
 class InsultBot ( Bot ):
-    def __init__ ( self ):
+    def __init__ ( self, insults_file = '../../data/insults.txt' ):
         super().__init__()          # Crear Conexion
         self.insults = []
+        self.insults_file = insults_file
         self.cargar_insultos()
 
     def cargar_insultos ( self ):
         base_dir  = os.path.dirname(__file__)
-        file_path = os.path.join(base_dir, '../../data/insults.txt')
+        file_path = os.path.join(base_dir, self.insults_file )
         try:
             with open(file_path, 'r', encoding='utf-8') as file:
                 for line in file:

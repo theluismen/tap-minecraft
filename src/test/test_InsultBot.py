@@ -25,3 +25,8 @@ def test_InsultBot_3():
     bot = InsultBot()
     filename = os.path.join(os.path.dirname(__file__), '../../data/insults.txt')
     assert len( bot.insults ) in ( 3, lines_of_file(filename))
+
+# TEST 4: Con el servidor APAGADO, ver si carga los insultos POR DEFECTO
+def test_InsultBot_4():
+    bot = InsultBot("")
+    assert bot.insults == ['Tonto','Feo','Baboso']
