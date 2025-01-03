@@ -1,5 +1,12 @@
-# TAP: Práctica "Minecraft Agent Framework" 
+# TAP: Práctica "Minecraft Agent Framework"
 [![codecov](https://codecov.io/github/theluismen/tap-minecraft/graph/badge.svg?token=KD9B9TK3N0)](https://codecov.io/github/theluismen/tap-minecraft)
+
+## Resumen
+Este proyecto se centra en la creación de un framework para el desarrollo de bots en Minecraft utilizando Python, junto con un plugin de Java para facilitar su integración con el servidor del juego.
+
+A través de este trabajo, se han diseñado bots que interactúan con el mundo de Minecraft para realizar tareas automatizadas. 
+
+Para conseguirlo, se ha utilizando la herramienta **mcpi** para establecer la conexión con el servidor e interactuar con él.
 
 ## framework.py
 Nuestro framework se gestiona unicamente desde un solo archivo: [`./src/framework.py`](src/framework.py). Este es el archivo que se ejecuta para utilizar todos los bots que interactúan con el servidor de Minecraft. Las invocaciones válidas para este archivo son las siguientes:
@@ -8,7 +15,7 @@ python3 ./src/framework.py <bot>
 python3 ./src/framework.py pptbot piedra | papel | tijera
 ```
 > [!CAUTION]
-> Si no se proporciona un bot como argumento o una de las opciones de *`pptbot`* no se corresponde con piedra, papel, o tijera, `framework.py` no hara nada.
+> Si no se proporciona un bot como argumento o una de las opciones de **`pptbot`** no se corresponde con piedra, papel, o tijera, `framework.py` no hara nada.
 
 La estructura de framework.py es la siguiente:
 ```python3
@@ -77,4 +84,5 @@ Para instalar este plugin en la carpeta `./Server/plugins/` se ha creado un brev
 ```
 
 ## Referencias
+- https://github.com/AdventuresInMinecraft/AdventuresInMinecraft-Linux
 - https://www.stuffaboutcode.com/p/minecraft-api-reference.html
