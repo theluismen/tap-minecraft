@@ -9,7 +9,7 @@ class InfoBot( Bot ):
         self.mc.postToChat("- insultbot     para Insult Bot")
         self.mc.postToChat("- tntbot        para TNT Bot")
         self.mc.postToChat("- infobot       para Info Bot")
-        self.mc.postToChat("- pptbot        para PPT Bot")
+        self.mc.postToChat("- pptbot piedra | papel | tijera  para PPT Bot")
 
     def test_msg ( self ):
         return "InfoBot: Done"

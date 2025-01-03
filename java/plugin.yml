@@ -16,3 +16,6 @@ commands:
       infobot:
         description: Muestra información sobre los diferentes bots.
         usage: /bot infobot
+      pptbot:
+        description: Bot que juega el piedra papel tijera contigo.
+        usage: /bot pptbot
