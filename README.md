@@ -40,7 +40,7 @@ A partir de esta clase se han creado 5 bots con diferentes funcionalidades:
 
 ## framework.py
 Nuestro framework se gestiona unicamente desde un solo archivo: [`./src/framework.py`](src/framework.py). Este es el archivo que se ejecuta para utilizar todos los bots que interactúan con el servidor de Minecraft. Las invocaciones válidas para este archivo son las siguientes:
-```python3
+```bash
 python3 ./src/framework.py <bot>
 python3 ./src/framework.py pptbot piedra | papel | tijera
 ```
@@ -113,6 +113,19 @@ Para instalar este plugin en la carpeta `./Server/plugins/` se ha creado un brev
 ./MakeJavaPlugin.sh
 ```
 
+## Instalación de dependecias
+Para instalar las dependencias del proyecto:
+```bash
+pip install -r requirements.txt
+```
+
+## Arrancar el Servidor de Minecraft
+Una vez ya esta todo configurado, encender el servidor de Minecraft es tan fácil como ejecutar el siguiente script:
+```bash
+./StartServer.sh
+```
+
 ## Referencias
+- [Enunciado de la Práctica]('data/Minecraft Agent Framework.pdf')
 - https://github.com/AdventuresInMinecraft/AdventuresInMinecraft-Linux
 - https://www.stuffaboutcode.com/p/minecraft-api-reference.html
