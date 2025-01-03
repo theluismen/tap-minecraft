@@ -126,6 +126,6 @@ Una vez ya esta todo configurado, encender el servidor de Minecraft es tan fáci
 ```
 
 ## Referencias
-- [Enunciado de la Práctica]('data/Minecraft Agent Framework.pdf')
+- [Enunciado de la Práctica](data/Minecraft%20Agent%20Framework.pdf)
 - https://github.com/AdventuresInMinecraft/AdventuresInMinecraft-Linux
 - https://www.stuffaboutcode.com/p/minecraft-api-reference.html
