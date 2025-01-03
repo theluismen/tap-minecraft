@@ -8,6 +8,36 @@ A través de este trabajo, se han diseñado bots que interactúan con el mundo d
 
 Para conseguirlo, se ha utilizando la herramienta **mcpi** para establecer la conexión con el servidor e interactuar con él.
 
+## Bots
+Para la creación de bots se ha creado una clase abstracta padre con métodos que deben implementar las clases hijas.
+```python3
+class Bot:
+    def __init__ ( self ):
+        try:
+            self.mc = minecraft.Minecraft.create()
+        except ConnectionRefusedError:
+            print("ERROR: Conection refused")
+
+    def connected( self ):
+        return hasattr(self,"mc")
+
+    @abstractmethod
+    def run ( self ):
+        pass
+
+    @abstractmethod
+    def test_msg ( self ):
+        pass
+```
+El constructor de la clase sirve para establecer una conexión con el servidor, el método `run` se utiliza en la ejecución de los bots y los metodos connected y `test_msg` se utilizan para los tests.
+
+A partir de esta clase se han creado 5 bots con diferentes funcionalidades:
+- **`InfoBot`**: Muestra informacion de los bots existentes.
+- **`InsultBot`**: Muestra por pantalla un insulto aleatorio de un fichero.
+- **`TNTBot`**: Coloca un circulo de bloques de tnt i fuego en la posición del jugador.
+- **`PPTBbot`**: Juega una partida de piedra papel tijera contigo.
+- **`ExceptionBot`**: Bot usado en caso de no indicar el nombre de un bot correctamente. Indica que el bot introducido es incorrecto y pide que se use infobot para ver los bots disponibles.
+
 ## framework.py
 Nuestro framework se gestiona unicamente desde un solo archivo: [`./src/framework.py`](src/framework.py). Este es el archivo que se ejecuta para utilizar todos los bots que interactúan con el servidor de Minecraft. Las invocaciones válidas para este archivo son las siguientes:
 ```python3
