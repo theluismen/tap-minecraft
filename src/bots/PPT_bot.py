@@ -46,3 +46,9 @@ class PPTBot ( Bot ):
 
     def test_msg( self ):
         return "PPTBot: Done"
+
+    def get_state(self):
+        return {
+            "human_choice": self.human_choice,
+            "bot_choice": self.bot_choice
+        }
