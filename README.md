@@ -129,3 +129,6 @@ Una vez ya esta todo configurado, encender el servidor de Minecraft es tan fáci
 - [Enunciado de la Práctica](data/Minecraft%20Agent%20Framework.pdf)
 - https://github.com/AdventuresInMinecraft/AdventuresInMinecraft-Linux
 - https://www.stuffaboutcode.com/p/minecraft-api-reference.html
+
+## Autoría
+Este proyecto ha sido realizado por Luis Manuel Ocampo Ávila y Pau Valls Tarrats.
